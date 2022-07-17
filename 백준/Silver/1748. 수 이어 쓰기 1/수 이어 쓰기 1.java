@@ -25,7 +25,7 @@ public class Main {
 
             else {
                 total += cnt * Integer.parseInt(std2);
-                if(std2 != "9") std2 = std2.substring(0, std2.length()-1);
+                if(std2 != "9") std2 = std2.substring(0, std2.length()-1); // 끝에 위치한 0 지우기
             }
 
             cnt--;
